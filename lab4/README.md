@@ -12,10 +12,15 @@ Change directory to where you saved the files, from there type out
 open your browser and go to "http://localhost:63342/lab4/"
 
 you can access each script from its path origin
+
 /lab4/01_expressions.php
+
 /lab4/02_branching.php
+
 /lab4/03_loops.php
+
 /lab4/04_grade_form/index.php
+
 /lab4/05_toolkit/index.php
 
 Sample Input/Outputs:
@@ -33,11 +38,14 @@ bool(false)
 Entry allowed
 Result: Fail/NoScore
 6
+
 Branching:
+
 input
 http://localhost:63342/lab4/02_branching.php?role=editor&day=Sun&code=404
 output
 Welcome, editor. Enjoy your weekend! Not Found
+
 Loops:
 
 output
@@ -57,10 +65,9 @@ input
 95
 output
 A
-Toolkit/Index:
-
 
 Notes on == vs ===:
+
 == compares values and allows for different types. it will change one type to another allowing it to be compared with one another.
 
 === compares values and types. if a int and string are being compared it would come back 
